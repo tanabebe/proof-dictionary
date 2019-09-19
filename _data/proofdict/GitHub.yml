@@ -1,0 +1,10 @@
+id: 01DN4QWEPB6PAWMRJA5HD8REAQ
+description: ''
+expected: GitHub
+patterns:
+  - /github/i
+  - /Git Hub/i
+  - /git hub/i
+allows: []
+specs: []
+tags: []
