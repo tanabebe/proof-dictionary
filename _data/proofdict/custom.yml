@@ -1,8 +1,0 @@
-id: 1
-  description: 'GitHubが正しい表記です。'
-  - expected: GitHub
-    patterns:
-      - /github/i
-      - /git hub/i
-    specs: []
-    tags: []
