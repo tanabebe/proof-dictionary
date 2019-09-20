@@ -18,8 +18,7 @@ specs:
     to: GitHub
   - from: GIT HUB
     to: GitHub
-tags: []
-
+tags: [],
 id: 99DN7HAQHK7Q7EBGXPCY0NS62H
 description: 'GitLabが正しい表記です。'
 expected: GitLab
