@@ -1,19 +1,18 @@
 version: 1
 rules:
-  - description: 'GitHubが正しい表記です。'
-  - expected: GitHub
-    patterns:
-      - /github/i
-      - /git hub/i
-  - allows: []
-  - specs: []
-  - tags: []
-  
-  - description: 'GitLabが正しい表記です。'
-  - expected: GitLab
-    patterns:
-      - /gitlab/i
-      - /git lab/i
-  - allows: []
-  - specs: []
-  - tags: []
+  - expected: Cookie
+    pattern: /クッキー|\bCOOKIE\b|\bcookie\b/
+
+  - expected: WebSocket
+    pattern: /\bWeb Socket\b/
+
+  - expected: Web$1
+    pattern:
+      - /WEB([^(\+DB)])/
+    specs:
+      - from: WEBサイト
+        to  : Webサイト
+      - from: WEBでは
+        to  : Webでは
+      - from: これはWEB+DBなのでセーフ
+        to  : これはWEB+DBなのでセーフ
