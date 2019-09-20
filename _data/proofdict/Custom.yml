@@ -19,3 +19,26 @@ specs:
   - from: GIT HUB
     to: GitHub
 tags: []
+
+id: 99DN7HAQHK7Q7EBGXPCY0NS62H
+description: 'GitLabが正しい表記です。'
+expected: GitLab
+patterns:
+  - /gitlab/i
+  - /git lab/i
+allows: []
+specs:
+  - from: Gitlab
+    to: GitLab
+  - from: Git lab
+    to: GitLab
+  - from: git lab
+    to: GitLab
+  - from: GITLAB
+    to: GitLab
+  - from: gitlab
+    to: GitLab
+  - from: GIT LAB
+    to: GitLab
+tags: []
+
