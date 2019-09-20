@@ -9,15 +9,11 @@ rules:
   - specs: []
   - tags: []
   
-  - description: 'JavaScript is not Java Script'
-  - expected: JavaScript
+  - description: 'GitLabが正しい表記です。'
+  - expected: GitLab
     patterns:
-  - /javascript/i
-  - /Java Script/i
-  - specs:
-  - from: javascript
-    to: JavaScript
-  - from: java script
-    to: JavaScript
-  - from: Java script
-    to: JavaScript
+      - /gitlab/i
+      - /git lab/i
+  - allows: []
+  - specs: []
+  - tags: []
