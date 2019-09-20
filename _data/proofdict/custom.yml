@@ -1,18 +1,16 @@
-version: 1
-rules:
-  - expected: Cookie
-    pattern: /クッキー|\bCOOKIE\b|\bcookie\b/
+id: 1
+  description: 'GitHubが正しい表記です。'
+  - expected: GitHub
+    patterns:
+      - /github/i
+      - /git hub/i
+    specs: []
+    tags: []
 
-  - expected: WebSocket
-    pattern: /\bWeb Socket\b/
-
-  - expected: Web$1
-    pattern:
-      - /WEB([^(\+DB)])/
-    specs:
-      - from: WEBサイト
-        to  : Webサイト
-      - from: WEBでは
-        to  : Webでは
-      - from: これはWEB+DBなのでセーフ
-        to  : これはWEB+DBなのでセーフ
+  description: 'GitHubが正しい表記です。'
+  - expected: GitHub
+    patterns:
+      - /github/i
+      - /git hub/i
+    specs: []
+    tags: []
