@@ -1,25 +1,23 @@
-id: 01DN4QWEPB6PAWMRJA5HD8REAQ
-description: 'GitHubが正しい表記です。'
-expected: GitHub
-patterns:
-  - /github/i
-  - /git hub/i
-allows: []
-specs: []
-tags: [],
-id: 01BQ92YYBHB83ZNFWK5WBA58B7
-description: 'JavaScript is not Java Script'
-expected: JavaScript
-patterns:
+version: 1
+rules:
+  - description: 'GitHubが正しい表記です。'
+  - expected: GitHub
+    patterns:
+      - /github/i
+      - /git hub/i
+  - allows: []
+  - specs: []
+  - tags: []
+  
+  - description: 'JavaScript is not Java Script'
+  - expected: JavaScript
+    patterns:
   - /javascript/i
   - /Java Script/i
-specs:
+  - specs:
   - from: javascript
     to: JavaScript
   - from: java script
     to: JavaScript
   - from: Java script
     to: JavaScript
-tags:
-  - noun
-  - JavaScript
