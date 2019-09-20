@@ -1,4 +1,4 @@
-id: 01DN7HAQHK7Q7EBGXPCY0NS62H
+- id: 01DN7HAQHK7Q7EBGXPCY0NS62H
 description: 'GitHubが正しい表記です。'
 expected: GitHub
 patterns:
@@ -18,8 +18,9 @@ specs:
     to: GitHub
   - from: GIT HUB
     to: GitHub
-tags: [],
-id: 01DN7HAQHK7Q7EBGXPCY0NS62H
+tags: []
+
+- id: 01DN7HAQHK7Q7EBGXPCY0NS62H
 description: ''
 expected: GitLab
 patterns:
