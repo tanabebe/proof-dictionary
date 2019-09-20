@@ -6,11 +6,3 @@ id: 1
       - /git hub/i
     specs: []
     tags: []
-
-  description: 'GitHubが正しい表記です。'
-  - expected: GitHub
-    patterns:
-      - /github/i
-      - /git hub/i
-    specs: []
-    tags: []
