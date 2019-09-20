@@ -1,0 +1,21 @@
+id: 01DN7HAQHK7Q7EBGXPCY0NS62H
+description: 'GitHubが正しい表記です。'
+expected: GitHub
+patterns:
+  - /github/i
+  - /git hub/i
+allows: []
+specs:
+  - from: Github
+    to: GitHub
+  - from: Git hub
+    to: GitHub
+  - from: git hub
+    to: GitHub
+  - from: GITHUB
+    to: GitHub
+  - from: github
+    to: GitHub
+  - from: GIT HUB
+    to: GitHub
+tags: []
