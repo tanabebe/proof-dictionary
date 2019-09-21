@@ -5,7 +5,7 @@ patterns:
   - /github/i
   - /git hub/i
 allows:
-  - /\\git lab\\/i
+  - /\\github\\/i
 specs:
   - from: github
     to: GitHub
