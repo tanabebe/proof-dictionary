@@ -1,0 +1,17 @@
+id: 01DN8Z942V0090F8SA5RJT18ME
+description: 'GitLabが正しい表記です。'
+expected: GitLab
+patterns:
+  - /gitlab/i
+  - /git lab/i
+allows: []
+specs:
+  - from: gitlab
+    to: GitLab
+  - from: gitLab
+    to: GitLab
+  - from: Gitlab
+    to: GitLab
+  - from: Git lab
+    to: GitLab
+tags: []
