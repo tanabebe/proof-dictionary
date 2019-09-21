@@ -1,5 +1,5 @@
 id: 01DN8YYET60JV9BJC8RVSAGX1N
-description: ''
+description: 'GitHubが正しい表記です。'
 expected: GitHub
 patterns:
   - /github/i
