@@ -4,7 +4,8 @@ expected: GitHub
 patterns:
   - /github/i
   - /git hub/i
-allows: []
+allows:
+  - /\\git lab\\/i
 specs:
   - from: github
     to: GitHub
