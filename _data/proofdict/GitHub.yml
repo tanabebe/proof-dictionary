@@ -2,18 +2,25 @@ id: 01DN8YYET60JV9BJC8RVSAGX1N
 description: 'GitHubが正しい表記です。'
 expected: GitHub
 patterns:
-  - /github/i
-  - /git hub/i
-allows:
-  - /\\github\\/i
-  - /\.github\./i
+  - /^github/i
+  - /^git hub/i
+allows: []
 specs:
   - from: github
     to: GitHub
-  - from: Git Hub
-    to: GitHub
   - from: git hub
     to: GitHub
+  - from: 'https://github.com/tanabebe'
+    to: 'https://github.com/tanabebe'
   - from: Github
     to: GitHub
-tags: []
+  - from: Git hub
+    to: GitHub
+  - from: GIT HUB
+    to: GitHub
+  - from: GITHUB
+    to: GitHub
+  - from: 'https://github.com/tanabebe'
+    to: 'https://github.com/tanabebe'
+tags:
+  - software
