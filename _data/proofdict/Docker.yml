@@ -1,5 +1,5 @@
 id: 01DNRS3GM39Z4T526XVT78CFBH
-description: 正しい表記はDockerです。
+description: Dockerが正しい表記です。
 expected: Docker
 patterns:
   - /^docker/i
