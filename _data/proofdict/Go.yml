@@ -1,5 +1,5 @@
 id: 01DNRR7CZRR38ATAQH9DV24QWH
-description: golangは間違った表記です。正しくはGoです。
+description: Goが正しい表記です。
 expected: Go
 patterns:
   - /^golang/i
