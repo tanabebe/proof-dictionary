@@ -1,0 +1,10 @@
+id: 01DNRS3GM39Z4T526XVT78CFBH
+description: 正しい表記はDockerです。
+expected: Docker
+patterns:
+  - /^docker/i
+allows: []
+specs:
+  - from: docker
+    to: Docker
+tags: []
