@@ -3,8 +3,11 @@ description: 表記間違いの可能性があります => Google Compute Engine
 expected: Google Compute Engine
 patterns:
   - /^compute engine/i
+  - /^google compute engine/i
 allows: []
 specs:
   - from: compute engine
+    to: Google Compute Engine
+  - from: google compute engine
     to: Google Compute Engine
 tags: []
