@@ -1,0 +1,13 @@
+id: 01DNRRRCTDG7ZCF7DPYTT8S4RG
+description: 間違った表記の可能性があります => Google App Engine
+expected: Google App Engine
+patterns:
+  - /^app engine/i
+  - /^google app engine/i
+allows: []
+specs:
+  - from: app engine
+    to: Google App Engine
+  - from: google app engine
+    to: Google App Engine
+tags: []
