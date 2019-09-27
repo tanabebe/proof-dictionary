@@ -1,0 +1,12 @@
+id: 01DNRS5ABPZHW0107BSXPQ48R3
+description: Markdownが正しい表記です。
+expected: Markdown
+patterns:
+  - /^markdown/i
+allows: []
+specs:
+  - from: markdown
+    to: Markdown
+  - from: MarkDown
+    to: Markdown
+tags: []
