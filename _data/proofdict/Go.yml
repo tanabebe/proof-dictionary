@@ -1,0 +1,12 @@
+id: 01DNRR7CZRR38ATAQH9DV24QWH
+description: golangは間違った表記です。正しくはGoです。
+expected: Go
+patterns:
+  - /^golang/i
+allows: []
+specs:
+  - from: golang
+    to: Go
+  - from: Golang
+    to: Go
+tags: []
